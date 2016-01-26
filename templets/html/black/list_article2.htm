@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>{dede:field.title/}>{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/cms/templets/html/css/Style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="/cms/templets/html/js/script.js"></script>
+<script type="text/javascript" src="/cms/templets/html/js/swfobject.js"></script>
+</head>
+<body>
+  <div  style="width:1001px; margin:0 auto;">
+ {dede:include filename="header.htm"/} 
+{dede:include filename="list.htm"/}
+      <td valign="top" style="padding-left:10px;"><table width="765" border="0" align="center" cellpadding="0" cellspacing="0" class="bj">
+          <tr>
+            <td width="14"><img src="templets/html/images/2_17.jpg" width="3" height="33" /></td>
+            <td width="18"><img src="templets/html/images/btd.jpg" width="12" height="12" /></td>
+            <td width="606" class="bt1">{dede:field name='typename'/}</td>
+            <td width="120">{dede:field name='position'/}</td>
+            <td width="7" align="right"><img src="templets/html/images/2_19.jpg" width="3" height="33" /></td>
+          </tr>
+        </table>
+          <table width="765" height="400" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td valign="top" class="border2">
+		  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+          
+          
+			
+			 
+<tr>
+    {dede:arclist row='9' titlelen='24' orderby='pubdate' idlist='' col='3'}
+    
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						
+                        <td align="center" height="180">
+						<a href="[field:arcurl /]"><img src="[field:picname/]" width="210" height="170" style="border:1px #cccccc solid; padding:2px;" /></a>
+						</td>
+					</tr>
+					<tr>
+					  <td align="center" class="f12" height="24">[field:textlink/]</td>
+					</tr>
+				</table>
+                
+                {/dede:arclist}
+                </tr>
+
+	
+				<tr>
+			  </tr>
+			  <tr>
+				<td colspan="3"><Div class="showpage">{dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/}</Div></td>
+			  </tr>
+			
+		  </table>
+</td>
+            </tr>
+        </table></td>
+    </tr>
+  </table>
+  </div> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="245" valign="top" class="footbg">
+	    {dede:include filename="footer.htm"/}</td>
+    </tr>
+  </table>
+</body>
+</html>
+<script type="text/javascript" src="templets/html/js/jqqonline.js"></script>
