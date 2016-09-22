@@ -26,7 +26,14 @@ a:hover{color:#ff5f19;}
 .bj{background:url(../images/2_18.jpg);}
 .footbg{background:url(../images/foot.jpg) repeat-x; height:148px; padding-top:10px;}
 .bt{font-size:16px; color:#07671f; padding-top:4px; padding-left:10px; font-family:"微软雅黑";}
-.bt1{font-size:14px; color:#000; font-family:"微软雅黑";}
+.bt1
+{
+	font-size:14px; 
+	font-family:"微软雅黑";
+             line-height: 30px;
+             color: #666666;
+
+}
 .bt2{font-size:14px; color:#fff; padding-top:4px; font-family:"微软雅黑"; background:url(../images/ppfl.jpg) no-repeat; padding-left:8px;}
 .bt3{font-size:14px; color:#fff; padding-top:5px; font-family:"微软雅黑"; background:url(../images/cpfl.jpg) no-repeat; padding-left:30px;}
 
@@ -217,7 +224,21 @@ a:hover{color:#ff5f19;}
 }
 #operator div
 {
-	margin-top:20px;
+
+	
+}
+#operator p
+{
+	margin-top: -35px;
+	color:#fff; 
+	font-family:"微软雅黑";	
+	
+}
+#operator a 
+
+{
+	color:#666666;
+	text-decoration:none;
 }
 .list_li
 {
@@ -242,7 +263,7 @@ a:hover{color:#ff5f19;}
 }
 .list_new_2
 {
-	float:left;
+	float:right;
 	width: 385px;
 	height: 304px;
 	border:1px solid #d1d1d1;
